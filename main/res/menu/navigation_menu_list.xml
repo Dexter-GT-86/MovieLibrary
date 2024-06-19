@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/drawer_layout_add_item_id"
+        android:title="Add Item" />
+    <item
+        android:id="@+id/drawer_layout_remove_last_item_id"
+        android:title="Remove Last Item" />
+    <item
+        android:id="@+id/drawer_layout_remove_all_item_id"
+        android:title="Remove All Item" />
+    <item
+        android:id="@+id/drawer_double_cost_id"
+        android:title="Double  Cost" />
+    <item
+        android:id="@+id/drawer_list_all_movies_id"
+        android:title="List All Movies" />
+
+    <item
+        android:id="@+id/submenu"
+        android:title="Database">
+        <menu>
+            <item
+                android:id="@+id/databaseNav"
+                android:title="Database"/>
+
+            <item
+                android:id="@+id/databaseClear"
+                android:title="Clear Database"/>
+
+        </menu>
+    </item>
+</menu>

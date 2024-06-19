@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/options_menu_clear_all_id"
+        android:title="Clean all fields" />
+    <item
+        android:id="@+id/options_lower_case_title_id"
+        android:title="Lower Case Title" />
+    <item
+        android:id="@+id/options_delete_before2010_id"
+        android:title="Delete Movie before 2010" />
+    <item
+        android:id="@+id/options_delet_cost_morethan20_id"
+        android:title="Delete Movie Cost above 20" />
+</menu>
